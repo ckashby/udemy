@@ -6,18 +6,15 @@ const NewExpense = () => {
   const [date, setDate] = useState();
 
   const titleChangeHandler = (e) => {
-    console.log(e.target.value);
-    setTitle(e.target.value);
+    // setTitle(e.target.value);
   };
 
   const amountChangeHandler = (e) => {
-    console.log(e.target.value);
-    setAmount(e.target.value);
+    // setAmount(e.target.value);
   };
 
   const dateChangeHandler = (e) => {
-    console.log(e.target.value);
-    setDate(e.target.value);
+    // setDate(e.target.value);
   };
 
   return (
